@@ -20,7 +20,9 @@
 <script>
 
 $(document).ready(function () {
-
+    $('submit').click(function(){
+       alert("something happned");
+    });
 });
 $(document).ready(function () {
     $('.slider_wrapper')._TMS({
@@ -81,7 +83,7 @@ $(document).ready(function () {
 <header class="page1">
   <div class="container_12">
     <div class="grid_12">
-      <h1><a href="#" onClick="goToByScroll('page1'); return false;"><img src="images/logo.png" alt=""></a></h1>
+      <a href="#" onClick="goToByScroll('page1'); return false;"><img src="images/logo.png" alt=""></a>
       <div class="menu_block">
         <nav class="">
           <ul class="sf-menu">
